@@ -31,7 +31,7 @@ Interactive shell features that work identically across machines:
 ## Setting up a new machine
 
 ```bash
-git clone <your-remote-url> ~/dotfiles
+git clone git@github.com:gladstone-9/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./bootstrap.sh
 ```
