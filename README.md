@@ -46,6 +46,26 @@ Then manually:
 1. Add `source ~/.zsh-enhancements` to the **top** of your `~/.zshrc`
 2. Open a new terminal — zinit auto-installs all plugins on first launch
 
+## Customizing your local copy
+
+**Reconfigure the prompt terminal UI:**
+
+```bash
+p10k configure
+```
+
+This rewrites `~/.p10k.zsh` (which is symlinked to `zsh/p10k.zsh` in the repo).
+
+**Edit enhancements:**
+
+Open `~/.zsh-enhancements` in any editor — it's a symlink to
+`~/dotfiles/zsh/enhancements.zsh`. Add plugins, change keybindings,
+tweak history settings, etc. Then `source ~/.zshrc` to apply.
+
+## Undoing / Uninstalling
+
+Remove `source ~/.zsh-enhancements` from `~/.zshrc`.
+
 ## Keeping enhancements in sync (requires fork)
 
 Since `~/.zsh-enhancements` is a symlink to `~/dotfiles/zsh/enhancements.zsh`,
